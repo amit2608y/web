@@ -1,28 +1,24 @@
 {
-  "name": "web",
+  "name": "confusion",
   "version": "1.0.0",
-  "description": "This is to learn Git and Node",
+  "description": "This is a website for Ristorante Con Fusion",
   "main": "index.html",
   "scripts": {
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/amit2608y/web.git"
-  },
-  "author": "Amit Yadav",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/amit2608y/web/issues"
-  },
-  "homepage": "https://github.com/amit2608y/web#readme",
   "devDependencies": {
-    "lite-server": "^2.5.4"
+    "lite-server": "^2.3.0"
   },
   "dependencies": {
+    "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
   }
 }
